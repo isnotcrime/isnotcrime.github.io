@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+}
+.span{
+    font-family: raleway, sans-serif;
+}
+.bg-template{
+    background:cadetblue;
+}
