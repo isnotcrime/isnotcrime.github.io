@@ -1,4 +1,8 @@
 /*Contenido Principal*/
+html {
+    scroll-behavior: smooth;
+  }
+  
 @font-face {
     font-family: 'Raleway', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
@@ -6,8 +10,18 @@
 .span{
     font-family: raleway, sans-serif;
 }
+/* colores*/
 .bg-template{
     background:cadetblue;
 }
+.border-bottom-template{
+    border-bottom:2px solid cadetblue;
+}
 /*tamaño Fuentes*/
-.fs-10{font-size: 10px;} .fs-12{font-size: 12px;} .fs-14{font-size: 14px;} .fs-16{font-size: 16px;} .fs-18 {font-size: 18px;} .fs-20{font-size: 16px;}
+.fs-10{font-size: 10px;} .fs-12{font-size: 12px;} .fs-14{font-size: 14px;} .fs-16{font-size: 16px;} .fs-18 {font-size: 18px;} .fs-30{font-size: 30px;}
+
+/*Destacados*/
+
+.card img {
+    height: 300px;
+}
